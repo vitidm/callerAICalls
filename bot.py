@@ -1,5 +1,4 @@
 from telethon import TelegramClient, events
-from decouple import config
 from telethon.tl.types import PeerUser, PeerChat, PeerChannel
 from telethon.tl.functions.channels import GetFullChannelRequest
 
@@ -34,13 +33,13 @@ print("Starting...")
 
 # Telegram
 
-APP_ID = config("APP_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-FROM_ = config("FROM_CHANNEL")
-TO_ = config("TO_CHANNEL")
+APP_ID = 18838067
+API_HASH = "649dcacf3c66e15b07456d5e44c82788"
+FROM_ = ["https://t.me/EZMoneyCalls", "https://t.me/brenthewolfcalls", "https://t.me/lowtaxethx", "https://t.me/mad_apes_call", "https://t.me/thorshammergems", "https://t.me/Caesars_Calls", "https://t.me/dr_crypto_channel", "https://t.me/InApeWeTrust", "https://t.me/PowsGemCalls", "https://t.me/luffysgemscalls", "https://t.me/VirusCalls", "https://t.me/TWOSICCsPICKS", "https://t.me/bagcalls", "https://t.me/maythouscalls", "https://t.me/goobygambles", "https://t.me/DobbysGems", "https://t.me/Kingdom_X100_CALLS" ,"https://t.me/yourowntest"]
+TO_ = ["https://t.me/CAIcalls"]
 
-FROM = [str(i) if 'https' in i else int(i) for i in FROM_.split()]
-TO = [str(i) for i in TO_.split()]
+FROM = [str(i) if 'https' in i else int(i) for i in FROM_]
+TO = [str(i) for i in TO_]
 
 try:
     BotzHubUser = TelegramClient('testBot', APP_ID, API_HASH)
