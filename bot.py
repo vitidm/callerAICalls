@@ -35,7 +35,7 @@ print("Starting...")
 
 APP_ID = 18838067
 API_HASH = "649dcacf3c66e15b07456d5e44c82788"
-FROM_ = ["https://t.me/EZMoneyCalls", "https://t.me/brenthewolfcalls", "https://t.me/lowtaxethx", "https://t.me/mad_apes_call", "https://t.me/thorshammergems", "https://t.me/Caesars_Calls", "https://t.me/dr_crypto_channel", "https://t.me/InApeWeTrust", "https://t.me/PowsGemCalls", "https://t.me/luffysgemscalls", "https://t.me/VirusCalls", "https://t.me/TWOSICCsPICKS", "https://t.me/maythouscalls", "https://t.me/goobygambles", "https://t.me/DobbysGems", "https://t.me/Kingdom_X100_CALLS" ,"https://t.me/yourowntest"]
+FROM_ = ["https://t.me/SKULLSGEMS", "https://t.me/EZMoneyCalls", "https://t.me/brenthewolfcalls", "https://t.me/lowtaxethx", "https://t.me/mad_apes_call", "https://t.me/thorshammergems", "https://t.me/Caesars_Calls", "https://t.me/dr_crypto_channel", "https://t.me/InApeWeTrust", "https://t.me/PowsGemCalls", "https://t.me/luffysgemscalls", "https://t.me/VirusCalls", "https://t.me/TWOSICCsPICKS", "https://t.me/maythouscalls", "https://t.me/goobygambles", "https://t.me/DobbysGems", "https://t.me/Kingdom_X100_CALLS" ,"https://t.me/yourowntest"]
 TO_ = ["https://t.me/CAIcalls"]
 
 FROM = [str(i) if 'https' in i else int(i) for i in FROM_]
